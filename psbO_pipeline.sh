@@ -1,8 +1,10 @@
 #!/bin/bash
 module load all gencore/3
 module load bwa/0.7.19
+module load pandas/2.2.3
 module load all gencore/2
 module load samtools/1.9
+    
 
 # === User Inputs ===
 DB="psbO_db.fna"
